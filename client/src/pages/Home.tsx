@@ -40,9 +40,11 @@ export default function Home() {
       <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
           <div className="mb-8">
-            <div className="w-32 h-32 mx-auto rounded-full bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center text-white text-5xl font-bold shadow-lg">
-              YB
-            </div>
+            <img
+              src="/profile-photo.png"
+              alt="Yassine Barboura"
+              className="w-40 h-40 mx-auto rounded-full object-cover shadow-lg border-4 border-blue-500"
+            />
           </div>
           <h2 className="text-4xl sm:text-5xl font-bold text-slate-900 dark:text-white mb-4">{PROFILE.name}</h2>
           <p className="text-xl text-slate-600 dark:text-slate-300 mb-2">{PROFILE.title}</p>
