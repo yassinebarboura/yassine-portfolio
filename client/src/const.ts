@@ -25,33 +25,39 @@ export const PROFILE = {
   name: "Yassine Barboura",
   title: "Étudiant en Réseaux et Services Informatiques",
   school: "Institut Supérieur des Études Technologiques de Mahdia (ISET Mahdia)",
-  bio: "Développeur passionné par les technologies web et les réseaux informatiques. Expérience en développement backend, frontend et déploiement d'applications.",
+  bio: "Développeur passionné avec expertise en technologies web et réseaux informatiques. Spécialisé en développement backend, frontend et déploiement d'applications. Motivé pour acquérir des compétences en DevOps et Cloud.",
+  keywords: "Full-Stack Development | Backend Development | Network Configuration | Cloud Infrastructure | DevOps | Application Deployment | Real-time Communication",
 };
 
 // Contact Information
 export const CONTACT = {
   email: "barbourayassine45@gmail.com",
-  phone: "20314939",
+  phone: "+216 20314939",
+  location: "Mahdia, Tunisie",
   linkedin: "https://www.linkedin.com/in/yassine-barboura-517b39325",
   github: "https://github.com/yassinebarboura",
+  cv: "/Yassine_Barboura_CV.pdf",
 };
 
 // Technical Skills
 export const TECHNICAL_SKILLS = {
   languages: ["Python", "PHP", "JavaScript", "HTML", "CSS", "SQL"],
   frameworks: ["Flask", "PyWebIO", "React.js", "Firebase"],
-  tools: ["Nginx", "Dnsmasq", "GNS3", "VMware"],
-  systems: ["Linux (Ubuntu/Debian)", "Windows Server"],
+  tools: ["Nginx", "Dnsmasq", "GNS3", "Proxmox"],
+  systems: ["Linux (Ubuntu/Debian)", "Windows Server", "HA", "VLAN", "Routage"],
   databases: ["MySQL", "Oracle"],
-  specialties: ["Programmation asynchrone (Asyncio)", "Conception client/serveur", "Déploiement d'applications"],
+  specialties: ["Full-Stack Development", "Backend Development", "Network Configuration", "Cloud Infrastructure", "DevOps", "Application Deployment", "Real-time Communication"],
 };
 
 // Soft Skills
 export const SOFT_SKILLS = [
-  "Bonne communication et esprit d'équipe",
-  "Capacité d'adaptation et apprentissage rapide",
-  "Sens de l'organisation et de la résolution de problèmes",
-  "Motivation à apprendre les technologies DevOps et Cloud",
+  "Communication",
+  "Esprit d'équipe",
+  "Adaptation",
+  "Organisation",
+  "Résolution de problèmes",
+  "Apprentissage rapide",
+  "Motivation DevOps & Cloud",
 ];
 
 // Professional Experiences
@@ -59,42 +65,38 @@ export const EXPERIENCES = [
   {
     id: 1,
     company: "Dice Studios",
-    department: "Département Développement",
     position: "Développeur",
-    project: "Application de chat en temps réel",
+    project: "Application de Chat en Temps Réel",
     description: "Développement d'une application de chat en temps réel avec Python et Flask.",
     tasks: [
       "Développement backend avec Python (Flask) et PyWebIO",
-      "Implémentation de la communication en temps réel avec Asyncio",
-      "Configuration et déploiement avec Nginx comme reverse proxy",
-      "Utilisation de machines virtuelles Linux pour le déploiement (serveur + client)",
-      "Configuration réseau et simulation via GNS3",
+      "Implémentation communication asynchrone (Asyncio)",
+      "Configuration Nginx reverse proxy et déploiement Linux",
+      "Configuration réseau et simulation GNS3",
     ],
   },
   {
     id: 2,
     company: "Ring Technologies",
-    department: "Département Développement",
-    position: "Stagiaire en développement web et mobile",
+    position: "Stagiaire Développement Web & Mobile",
     project: "Application CRUD avec PHP/MySQL",
-    description: "Développement d'une application CRUD complète avec interface utilisateur.",
+    description: "Conception et développement d'une application CRUD complète avec interface utilisateur.",
     tasks: [
-      "Conception d'une interface utilisateur simple et fonctionnelle",
-      "Gestion complète du cycle CRUD (Create, Read, Update, Delete)",
-      "Collaboration avec l'équipe de développement pour l'optimisation des performances",
+      "Conception interface utilisateur",
+      "Gestion complète du cycle CRUD",
+      "Optimisation des performances",
     ],
   },
   {
     id: 3,
     company: "MentorNations Bootcamp",
-    department: "Formation intensive",
     position: "Participant",
-    project: "Site web en React.js + Firebase pour sensibiliser contre la cyberintimidation",
+    project: "Site Web React.js + Firebase (Anti-Cyberharcèlement)",
     description: "Développement d'un site web complet pour sensibiliser contre la cyberintimidation.",
     tasks: [
-      "Authentification utilisateur via Firebase",
-      "Gestion en temps réel des données",
-      "Déploiement et hébergement sur Firebase Hosting",
+      "Authentification utilisateur Firebase",
+      "Gestion données en temps réel",
+      "Déploiement Firebase Hosting",
     ],
   },
 ];
@@ -109,12 +111,15 @@ export const EDUCATION = {
 
 // Languages
 export const LANGUAGES = [
-  { language: "Anglais", level: "B2" },
-  { language: "Français", level: "B2" },
+  { language: "Anglais", level: "B2", percentage: 80 },
+  { language: "Français", level: "B2", percentage: 80 },
+  { language: "Arabe", level: "Natif", percentage: 100 },
 ];
 
-// Certifications
+// Certifications & Projects
 export const CERTIFICATIONS = [
-  "Participation à un bootcamp de développement web (MentorNations)",
-  "Expériences pratiques de déploiement d'applications et configuration réseau",
+  "Participation bootcamp développement web (MentorNations)",
+  "Expériences pratiques déploiement applications et configuration réseau",
+  "Infrastructure Cloud Haute Disponibilité (Proxmox, HA)",
+  "Intégration Réseau Multi-Sites (VLAN, Routage, VPN)",
 ];

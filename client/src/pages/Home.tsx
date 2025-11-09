@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Mail, Phone, Linkedin, Github, ChevronDown } from "lucide-react";
+import { Mail, Phone, Linkedin, Github, ChevronDown, FileText, Download } from "lucide-react";
 import {
   PROFILE,
   CONTACT,
@@ -53,6 +53,12 @@ export default function Home() {
               <Button className="gap-2">
                 <Mail className="w-4 h-4" />
                 Email
+              </Button>
+            </a>
+            <a href={CONTACT.cv} download>
+              <Button className="gap-2 bg-green-600 hover:bg-green-700">
+                <Download className="w-4 h-4" />
+                Télécharger CV
               </Button>
             </a>
             <a href={CONTACT.linkedin} target="_blank" rel="noopener noreferrer">
@@ -202,7 +208,7 @@ export default function Home() {
                       <span className="text-sm text-slate-600 dark:text-slate-400">{lang.level}</span>
                     </div>
                     <div className="w-full bg-slate-200 dark:bg-slate-700 rounded-full h-2">
-                      <div className="bg-blue-600 h-2 rounded-full" style={{ width: lang.level === "B2" ? "80%" : "60%" }} />
+                      <div className="bg-blue-600 h-2 rounded-full" style={{ width: `${lang.percentage}%` }} />
                     </div>
                   </div>
                 ))}
