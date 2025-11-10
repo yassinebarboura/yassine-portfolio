@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yassine Barboura - CV</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 40px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 30px;
+            border-bottom: 3px solid #0052CC;
+            padding-bottom: 20px;
+        }
+        
+        .header-left h1 {
+            color: #0052CC;
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .header-left h2 {
+            color: #000;
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+        
+        .header-left p {
+            font-size: 12px;
+            color: #666;
+        }
+        
+        .header-right img {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border: 1px solid #ddd;
+        }
+        
+        .section {
+            margin-bottom: 25px;
+        }
+        
+        .section-title {
+            color: #0052CC;
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 12px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #0052CC;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .summary-text {
+            font-size: 13px;
+            line-height: 1.7;
+            text-align: justify;
+            color: #555;
+        }
+        
+        .experience-item {
+            margin-bottom: 15px;
+        }
+        
+        .experience-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 5px;
+        }
+        
+        .experience-header h3 {
+            font-size: 13px;
+            font-weight: bold;
+            color: #000;
+        }
+        
+        .experience-header .date {
+            font-size: 12px;
+            color: #666;
+            font-weight: normal;
+        }
+        
+        .experience-company {
+            font-size: 12px;
+            color: #666;
+            margin-bottom: 5px;
+        }
+        
+        .experience-details {
+            font-size: 12px;
+            color: #555;
+            margin-left: 20px;
+        }
+        
+        .experience-details li {
+            margin-bottom: 4px;
+            list-style-position: inside;
+        }
+        
+        .education-item {
+            margin-bottom: 12px;
+        }
+        
+        .education-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 3px;
+        }
+        
+        .education-header h3 {
+            font-size: 13px;
+            font-weight: bold;
+            color: #000;
+        }
+        
+        .education-header .date {
+            font-size: 12px;
+            color: #666;
+        }
+        
+        .education-school {
+            font-size: 12px;
+            color: #666;
+            margin-bottom: 3px;
+        }
+        
+        .education-details {
+            font-size: 12px;
+            color: #555;
+            margin-left: 20px;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+            font-size: 12px;
+        }
+        
+        .skill-category {
+            font-weight: bold;
+            color: #000;
+        }
+        
+        .additional-info {
+            font-size: 12px;
+            line-height: 1.8;
+        }
+        
+        .additional-info p {
+            margin-bottom: 5px;
+        }
+        
+        .additional-info strong {
+            font-weight: bold;
+            color: #000;
+        }
+        
+        @media print {
+            body {
+                background-color: white;
+            }
+            .container {
+                box-shadow: none;
+                margin: 0;
+                padding: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <div class="header-left">
+                <h1>YASSINE BARBOURA</h1>
+                <h2>DÉVELOPPEUR FULL-STACK & RÉSEAUX INFORMATIQUES</h2>
+                <p>Mahdia, Tunisie | +216 20314939 | barbourayassine45@gmail.com</p>
+            </div>
+            <div class="header-right">
+                <img src="profile-photo.png" alt="Yassine Barboura">
+            </div>
+        </div>
+        
+        <!-- Summary -->
+        <div class="section">
+            <div class="section-title">Résumé Professionnel</div>
+            <p class="summary-text">
+                Développeur passionné avec expertise en technologies web et réseaux informatiques. Spécialisé en développement backend, frontend et déploiement d'applications. Expérience pratique en architecture cloud, configuration réseau et programmation asynchrone. Motivé pour acquérir des compétences avancées en DevOps et Cloud Computing.
+            </p>
+        </div>
+        
+        <!-- Professional Experience -->
+        <div class="section">
+            <div class="section-title">Expériences Professionnelles</div>
+            
+            <div class="experience-item">
+                <div class="experience-header">
+                    <h3>Développeur - Dice Studios</h3>
+                    <span class="date">2024 - Présent</span>
+                </div>
+                <p class="experience-company">Application de Chat en Temps Réel</p>
+                <ul class="experience-details">
+                    <li>Développement backend avec Python (Flask) et PyWebIO</li>
+                    <li>Implémentation communication asynchrone (Asyncio)</li>
+                    <li>Configuration Nginx reverse proxy et déploiement Linux</li>
+                    <li>Configuration réseau et simulation GNS3</li>
+                </ul>
+            </div>
+            
+            <div class="experience-item">
+                <div class="experience-header">
+                    <h3>Stagiaire Développement Web & Mobile - Ring Technologies</h3>
+                    <span class="date">2023 - 2024</span>
+                </div>
+                <p class="experience-company">Application CRUD avec PHP/MySQL</p>
+                <ul class="experience-details">
+                    <li>Conception interface utilisateur</li>
+                    <li>Gestion complète du cycle CRUD</li>
+                    <li>Optimisation des performances</li>
+                </ul>
+            </div>
+            
+            <div class="experience-item">
+                <div class="experience-header">
+                    <h3>Participant - MentorNations Bootcamp</h3>
+                    <span class="date">2023</span>
+                </div>
+                <p class="experience-company">Site Web React.js + Firebase (Anti-Cyberharcèlement)</p>
+                <ul class="experience-details">
+                    <li>Authentification utilisateur Firebase</li>
+                    <li>Gestion données en temps réel</li>
+                    <li>Déploiement Firebase Hosting</li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Education -->
+        <div class="section">
+            <div class="section-title">Formation</div>
+            
+            <div class="education-item">
+                <div class="education-header">
+                    <h3>Licence appliquée en Réseaux et Services Informatiques</h3>
+                    <span class="date">En cours</span>
+                </div>
+                <p class="education-school">Institut Supérieur des Études Technologiques de Mahdia (ISET Mahdia)</p>
+                <p class="education-details">• Domaine: Technologies de l'informatique</p>
+            </div>
+        </div>
+        
+        <!-- Technical Skills -->
+        <div class="section">
+            <div class="section-title">Compétences Techniques</div>
+            <div class="skills-grid">
+                <div>
+                    <p class="skill-category">Langages</p>
+                    <p>Python, PHP, JavaScript, HTML, CSS, SQL</p>
+                </div>
+                <div>
+                    <p class="skill-category">Frameworks</p>
+                    <p>Flask, React.js, Firebase, PyWebIO</p>
+                </div>
+                <div>
+                    <p class="skill-category">Systèmes & Réseaux</p>
+                    <p>Linux, Windows Server, Proxmox, HA, VLAN</p>
+                </div>
+                <div>
+                    <p class="skill-category">Bases de Données</p>
+                    <p>MySQL, Oracle</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Additional Information -->
+        <div class="section">
+            <div class="section-title">Informations Complémentaires</div>
+            <div class="additional-info">
+                <p><strong>Langues:</strong> Anglais (B2), Français (B2), Arabe (Natif)</p>
+                <p><strong>Compétences Personnelles:</strong> Communication, Esprit d'équipe, Adaptation, Organisation, Résolution de problèmes, Apprentissage rapide</p>
+                <p><strong>Certifications:</strong> Bootcamp développement web (MentorNations), Infrastructure Cloud Haute Disponibilité (Proxmox, HA), Intégration Réseau Multi-Sites (VLAN, Routage, VPN)</p>
+                <p><strong>Mots-clés:</strong> Full-Stack Development | Backend Development | Network Configuration | Cloud Infrastructure | DevOps | Application Deployment | Real-time Communication</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
