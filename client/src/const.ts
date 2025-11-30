@@ -92,7 +92,7 @@ export const EXPERIENCES = [
     company: "MentorNations Bootcamp",
     position: "Participant",
     project: "Site Web React.js + Firebase (Contre la Rage)",
-    description: "Développement d'un site web complet pour sensibiliser contre la cyberintimidation.",
+    description: "Développement d'un site web complet pour sensibiliser contre la rage.",
     tasks: [
       "Authentification utilisateur Firebase",
       "Gestion données en temps réel",
