@@ -91,7 +91,7 @@ export const EXPERIENCES = [
     id: 3,
     company: "MentorNations Bootcamp",
     position: "Participant",
-    project: "Site Web React.js + Firebase (Anti-Cyberharcèlement)",
+    project: "Site Web React.js + Firebase (Contre la Rage)",
     description: "Développement d'un site web complet pour sensibiliser contre la cyberintimidation.",
     tasks: [
       "Authentification utilisateur Firebase",
