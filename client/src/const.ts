@@ -25,7 +25,7 @@ export const PROFILE = {
   name: "Yassine Barboura",
   title: "Étudiant en Réseaux et Services Informatiques",
   school: "Institut Supérieur des Études Technologiques de Mahdia (ISET Mahdia)",
-  bio: "Développeur passionné avec expertise en technologies web et réseaux informatiques. Spécialisé en développement backend, frontend et déploiement d'applications. Motivé pour acquérir des compétences en DevOps, Cloud, Fortigate, Zabbix et VoIP.",
+  bio: "Développeur passionné avec expertise en technologies web et réseaux informatiques. Spécialisé en développement backend, frontend et déploiement d'applications. Motivé pour acquérir des compétences en DevOps, Cloud.",
   keywords: "Full-Stack Development | Backend Development | Network Configuration | Cloud Infrastructure | DevOps | Application Deployment | Real-time Communication",
 };
 
