@@ -25,7 +25,7 @@ export const PROFILE = {
   name: "Yassine Barboura",
   title: "Étudiant en Réseaux et Services Informatiques",
   school: "Institut Supérieur des Études Technologiques de Mahdia (ISET Mahdia)",
-  bio: "Développeur passionné avec expertise en technologies web et réseaux informatiques. Spécialisé en développement backend, frontend et déploiement d'applications. Motivé pour acquérir des compétences en DevOps et Cloud.",
+  bio: "Développeur passionné avec expertise en technologies web et réseaux informatiques. Spécialisé en développement backend, frontend et déploiement d'applications. Motivé pour acquérir des compétences en DevOps, Cloud, Fortigate, Zabbix et VoIP.",
   keywords: "Full-Stack Development | Backend Development | Network Configuration | Cloud Infrastructure | DevOps | Application Deployment | Real-time Communication",
 };
 
@@ -43,10 +43,10 @@ export const CONTACT = {
 export const TECHNICAL_SKILLS = {
   languages: ["Python", "PHP", "JavaScript", "HTML", "CSS", "SQL"],
   frameworks: ["Flask", "PyWebIO", "React.js", "Firebase"],
-  tools: ["Nginx", "Dnsmasq", "GNS3", "Proxmox"],
-  systems: ["Linux (Ubuntu/Debian)", "Windows Server", "HA", "VLAN", "Routage"],
+  tools: ["Nginx", "Dnsmasq", "GNS3", "Proxmox", "Zabbix"],
+  systems: ["Linux (Ubuntu/Debian)", "Windows Server", "HA", "VLAN", "Routage", "Fortigate"],
   databases: ["MySQL", "Oracle"],
-  specialties: ["Full-Stack Development", "Backend Development", "Network Configuration", "Cloud Infrastructure", "DevOps", "Application Deployment", "Real-time Communication"],
+  specialties: ["Full-Stack Development", "Backend Development", "Network Configuration", "Cloud Infrastructure", "DevOps", "Application Deployment", "Real-time Communication", "VoIP"],
 };
 
 // Soft Skills
@@ -120,6 +120,6 @@ export const LANGUAGES = [
 export const CERTIFICATIONS = [
   "Participation bootcamp développement web (MentorNations)",
   "Expériences pratiques déploiement applications et configuration réseau",
-  "Infrastructure Cloud Haute Disponibilité (Proxmox, HA)",
+  "Infrastructure Cloud Haute Disponibilité (Proxmox, HA, Grafana supervision, Prometheus)",
   "Intégration Réseau Multi-Sites (VLAN, Routage, VPN)",
 ];
